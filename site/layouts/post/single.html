@@ -4,7 +4,7 @@
     <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
     <div class="flex justify-between grey-3">
       <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-  Opoblikowano{{ .Date.Day }} {{ index $.Site.Data.m (printf "%d" .Date.Month) }} {{ .Date.Year }} (dernière modification le {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }})
+  Opublikowano {{ .Date.Day }} {{ index $.Site.Data.m (printf "%d" .Date.Month) }} {{ .Date.Year }} 
 </time>
       <p>Read in {{ .ReadingTime }} minutes</p>
     </div>
