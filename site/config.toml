@@ -1,3 +1,4 @@
 baseurl = "/"
 languageCode = "pl-PL"
 title = "Homepage"
+DefaultContentLanguage = "pl"
